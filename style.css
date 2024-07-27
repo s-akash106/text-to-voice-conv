@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: 'poppins' ,sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+ 
+min-height: 100vh;
+width: 100%;
+background-color:rgb(43, 43, 43);
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+color: white;
+}
+
+.hero h1 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+textarea{
+    width: 600px;
+    height: 250px;
+    background: #a2a1b7;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+textarea ::placeholder{
+    font-size: 16px;
+    color:white;
+}
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    background:#ff2963 ;
+    color: #fff;
+    font: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+   cursor: pointer;
+
+
+}
+select {
+ flex: 1;
+ color :white;
+ background-color: #a2a1b7;
+  height: 50px;
+  width: 100%;
+  padding: 0 20px;
+  border-radius: 35px;
+  cursor: pointer;
+
+}
